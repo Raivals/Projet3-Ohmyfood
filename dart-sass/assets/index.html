@@ -4,25 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/7d17636476.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./sass/main.scss">
+    <script src="https://kit.fontawesome.com/5da6fe0c36.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./sass/style.css" type="text/css">
     <title>Acceuil - ohmyfood!</title>
 </head>
 <body>
+    <!--Header-->
     <header class="header">
-        <div class="header__logo">
-            <img src="images/logo/ohmyfood.png"alt="logo du site" />
-        </div>
+        <h1 class="header__logo">Ohmyfood</a></h1>
     </header>
 
     <main>
+        <!--Section localisation-->
         <section class="local">
             <i class="fas fa-map-marker-alt local__icon"></i>
             <span class="local__text">Paris, Belleville</span>
         </section>
-
+        <!--Section slogan-->
         <section class="slogan">
-            <h1 class="slogan__title">Réservez le menu qui <br/>vous convient</h1>
+            <h2 class="slogan__title">Réservez le menu qui <br/>vous convient</h2>
             <p class="slogan__subtitle">
                 Découvrez des restaurants d'exception, sélectionnés par nos soins
             </p>
@@ -30,31 +30,34 @@
                 Explorer nos restaurants
             </a>
         </section>
-
+        <!--Section tutoriel-->
         <section class="tuto">
             <div class="container">
                 <h2 class="tuto__title">Fonctionnement</h2>
-                <ol class="tuto__steps">
+                <ul class="tuto__steps">
                     <li class="tuto__step">
+                        <div class="tuto__numbers"><span>1</span></div>
                         <i class="tuto__icon fas fa-mobile-alt"></i>
                         <span class="text">Choisissez un restaurant</span>
                     </li>
                     <li class="tuto__step">
+                        <div class="tuto__numbers"><span>2</span></div>
                         <i class="tuto__icon fas fa-list-ul"></i>
                         <span class="text">Composez votre menu</span>
                     </li>
                     <li class="tuto__step">
+                        <div class="tuto__numbers"><span>3</span></div>
                         <i class="tuto__icon fas fa-store"></i>
                         <span class="text">Dégustez au restaurant</span>
                     </li>
-                </ol>
+                </ul>
             </div>
         </section>
 
-
+        <!--Section restaurants-->
         <section class="restaurants" id="restaurants">
             <div class="container">
-                <h2 class="restaurants__title">Restaurants</h2>
+                <h3 class="restaurants__title">Restaurants</h3>
 
                 <div class="cards">
                     <a class="card" href="./la-palette-du-gout.html">
@@ -62,7 +65,7 @@
                         <span class="card__badge">Nouveau</span>
                         <footer class="card__footer">
                             <div class="card__content">
-                                <h3 class="card__title">La palette du goût</h3>
+                                <h4 class="card__title">La palette du goût</h4>
                                 <span class="card__subtitle">Ménilmontant</span>
                             </div>
                             <div class="menu__btn card__btn">
@@ -77,7 +80,7 @@
                         <span class="card__badge">Nouveau</span>
                         <footer class="card__footer">
                             <div class="card__content">
-                                <h3 class="card__title">La note enchantée</h3>
+                                <h4 class="card__title">La note enchantée</h4>
                                 <span class="card__subtitle">Charonne</span>
                             </div>
                             <div class="menu__btn card__btn">
@@ -92,7 +95,7 @@
                         <span class="card__badge">Nouveau</span>
                         <footer class="card__footer">
                             <div class="card__content">
-                                <h3 class="card__title">À la française</h3>
+                                <h4 class="card__title">À la française</h4>
                                 <span class="card__subtitle">Cité rouge</span>
                             </div>
                             <div class="menu__btn card__btn">
@@ -107,7 +110,7 @@
                         <span class="card__badge">Nouveau</span>
                         <footer class="card__footer">
                             <div class="card__content">
-                                <h3 class="card__title">Le délice des sens</h3>
+                                <h4 class="card__title">Le délice des sens</h4>
                                 <span class="card__subtitle">Folie-Méricourt</span>
                             </div>
                             <div class="menu__btn card__btn">
@@ -120,12 +123,10 @@
             </div>
         </section>
     </main>
-
+    <!--Footer-->
     <footer class="footer">
         <div class="container">
-            <div class="footer__logo">
-                <img src="images/logo/ohmyfood.png" alt="logo site"/>
-            </div>
+            <h3>ohmyfood</h3>
             <ul class="footer__list">
                 <li class="footer__listing">
                     <a class="footer__link" href="#"><i class="footer_icon fas fa-utensils"></i>Proposer un restaurant</a>

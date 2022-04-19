@@ -1,0 +1,71 @@
+.tuto{
+    
+    &__title {
+        font-weight: bold;
+        margin-left: 15px;
+    }
+    &__step{
+        margin: 0 20px 20px -20px;
+        padding: 20px 0 20px 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background: #f6f6f6;
+        border-radius: 20px;
+        box-shadow: 4px 4px 6px #fff;
+        font-weight: bold;
+        box-shadow: 4px 4px 6px #e9e9e9;
+        &:hover{
+            background-color: rgba(146,86,220, 0.2);
+            cursor: pointer;
+        }
+    }
+    &__icon{
+        margin: 0 20px 0 20px;
+        color: grey;
+        &:hover {
+            color: #9356dc;
+        }
+    }
+    &__numbers{
+        margin-left: -10px;
+        color: #fff;
+        font-size:0.7rem ;
+        border: 1px solid #9356dc;
+        background-color: #9356dc;
+        padding: 4px 8px 4px 8px;
+        border-radius: 20px;
+    }
+}
+
+.text {
+    font-weight: bold;
+}
+
+
+
+/* Version Desktop */
+
+@media screen and (min-width: 1280px) {
+
+.tuto{
+    &__steps{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 100px;
+    }
+    &__step{
+        padding: 20px 60px 20px 0;
+        
+    }
+}
+}
+
+/* version tablette */ 
+
+@media screen and (min-width: 768px)
+{
+    
+    
+}
