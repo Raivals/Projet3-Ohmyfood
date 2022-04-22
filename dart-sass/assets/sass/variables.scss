@@ -6,3 +6,35 @@ $color-tertiary: #99E2D0;
 $linear-gradient:linear-gradient(0deg, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
 $fond-gris-footer: #353535;
 $font-cursive: 'Shrikhand', cursive;
+
+
+@mixin slogan {
+    background: #f6f6f6;
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+@mixin btn-slogan {
+    border: 1px solid transparent;
+    border-radius: 30px;
+    padding: 15px 20px 15px 20px; 
+    background-image: $linear-gradient;
+    color: #fff;
+    font-weight: bold;
+    box-shadow: 4px 4px 6px #aaa;
+    cursor: pointer;
+}
+
+@keyframes card__btn {
+    0%{
+        opacity:0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}

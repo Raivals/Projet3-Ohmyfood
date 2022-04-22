@@ -4,17 +4,19 @@
   background: #f6f6f6;
   text-align: center;
   width: 100%;
-  padding: 40px 0;
+  padding-top: 20px;
+  padding-bottom: 60px;
 }
 
 .slogan__title {
-  font-weight: 800;
+  font-weight: bold;
 }
 
 .slogan__subtitle {
   color: #4d4d4d;
   font-size: 1rem;
   padding-bottom: 25px;
+  font-weight: 500;
 }
 
 .slogan__btn {

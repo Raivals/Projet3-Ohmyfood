@@ -1,12 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+@import url("/dart-sass/assets/sass/variables.css");
 @import url("./homepage/header.css");
 @import url("./homepage/local.css");
 @import url("./homepage/slogan.css");
-@import url("/dart-sass/assets/sass/variables.scss");
 @import url("./homepage/tutoriel.css");
-span, p, h1, h2, h3, a {
+@import url("./homepage/restaurant.css");
+@import url("./homepage/footer.css");
+span, p, h1, h2, h3, a, h4 {
   font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+  font-size: 1.4rem;
+}
+
+body {
+  margin: 0;
 }
 
 /*Version Large */

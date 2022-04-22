@@ -6,7 +6,8 @@ $linear-gradient:linear-gradient(0deg, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79
     background: #f6f6f6;
     text-align: center;
     width: 100%;
-    padding: 40px 0;
+    padding-top: 20px;
+    padding-bottom: 60px;
 }
 
 @mixin btn-slogan {
@@ -23,12 +24,13 @@ $linear-gradient:linear-gradient(0deg, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79
 .slogan {
     @include slogan;
     &__title {
-      font-weight: 800; 
+      font-weight: bold; 
     }
     &__subtitle {
       color: #4d4d4d;
       font-size: 1rem;
       padding-bottom: 25px;
+      font-weight: 500;
     }
 
     &__btn {

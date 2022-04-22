@@ -1,8 +1,10 @@
 .tuto{
-    
+    padding-top: 20px;
+    padding-bottom: 30px;
     &__title {
         font-weight: bold;
         margin-left: 15px;
+        margin-bottom: 25px;
     }
     &__step{
         margin: 0 20px 20px -20px;
@@ -46,7 +48,7 @@
 
 /* Version Desktop */
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) {
 
 .tuto{
     &__steps{

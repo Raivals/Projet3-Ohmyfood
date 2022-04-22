@@ -1,0 +1,27 @@
+.footer{
+    background-color: #353535;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    &__logo{
+        font-family:'Shrikhand', sans-serif; 
+        font-size: 1.2rem;
+        margin-left: 15px;
+        color: white;
+    }
+    &__list{
+        list-style-type: none;
+    }
+    &__listing{
+        margin-bottom: 10px;
+        margin-left: -20px;
+    }
+    &__link{
+        &:link{
+            text-decoration: none;
+        }
+        color: white;
+    }
+    &__icon{
+        padding-right: 15px;
+    }
+}
