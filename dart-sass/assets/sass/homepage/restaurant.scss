@@ -66,4 +66,41 @@ $color-tertiary: #99E2D0;
         color: black;
         margin-top: -18px;
     }
-}/* Faire les coeurs (animation + position)*/
+    &__btn{
+        color: black;
+        cursor: pointer;
+        &:hover {
+            animation: fill 0.3s ease-in-out;
+            display: inline-block;
+            opacity: 1;
+            background:linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+            background:-webkit-linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color:transparent;
+            font-weight: bold;
+        }
+    }
+}
+
+/* Version Desktop */
+
+@media screen and (min-width: 1200px) {
+.cards{
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    gap: 30px;
+    width: 80%;
+}
+}
+
+/* version tablette */ 
+
+@media screen and (min-width: 768px){
+    .cards{
+        display: grid;
+        grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+        gap: 30px;
+        width: 80%;
+        padding: 0 10%;
+    }
+}

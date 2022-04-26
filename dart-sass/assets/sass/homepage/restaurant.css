@@ -87,5 +87,48 @@
   margin-top: -18px;
 }
 
-/* Faire les coeurs (animation + position)*/
+.card__btn {
+  color: black;
+  cursor: pointer;
+}
+
+.card__btn:hover {
+  -webkit-animation: fill 0.3s ease-in-out;
+          animation: fill 0.3s ease-in-out;
+  display: inline-block;
+  opacity: 1;
+  background: -webkit-gradient(linear, right top, left top, from(#9356dc), color-stop(#b35cdc), color-stop(#cf64dc), color-stop(#e86edb), to(#ff79da));
+  background: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+  background: -webkit-linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+/* Version Desktop */
+@media screen and (min-width: 1200px) {
+  .cards {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: (1fr)[2];
+    -ms-grid-columns: (1fr)[2];
+        grid-template: repeat(2, 1fr)/repeat(2, 1fr);
+    gap: 30px;
+    width: 80%;
+  }
+}
+
+/* version tablette */
+@media screen and (min-width: 768px) {
+  .cards {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: (1fr)[2];
+    -ms-grid-columns: (1fr)[2];
+        grid-template: repeat(2, 1fr)/repeat(2, 1fr);
+    gap: 30px;
+    width: 80%;
+    padding: 0 10%;
+  }
+}
 /*# sourceMappingURL=restaurant.css.map */

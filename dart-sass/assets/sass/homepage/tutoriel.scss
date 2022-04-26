@@ -19,9 +19,10 @@
         box-shadow: 4px 4px 6px #e9e9e9;
         &:hover{
             background-color: rgba(146,86,220, 0.2);
-            cursor: pointer;
+            cursor: pointer;  
         }
     }
+            
     &__icon{
         margin: 0 20px 0 20px;
         color: grey;
@@ -68,6 +69,16 @@
 
 @media screen and (min-width: 768px)
 {
-    
-    
+.tuto{
+    padding-bottom: 0;
+    &__steps{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 80px;
+    }
+    &__step{
+        padding: 20px 60px 20px 0;     
+    }  
+}
 }
