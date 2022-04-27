@@ -144,3 +144,37 @@ $linear-gradient:linear-gradient(0deg, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79
     background-color: #f6f6f6;
     padding-bottom: 50px;
 }
+
+/* Version Desktop */
+
+@media screen and (min-width: 1200px) {
+
+.submenus{
+    display: flex;
+    justify-content: space-between;
+}
+.submenu{
+    padding: 0 40px 0 40px;
+    width: 400px;   
+}
+.wrapBtn .commandBtn{
+    width: 15%;
+}
+}
+
+/* version tablette */ 
+
+@media screen and (min-width: 768px)
+{
+.menu{
+    &__title{
+        margin-left: 30px;
+    }
+}
+.submenus{
+   padding: 15px 50px 15px 50px; 
+}
+.wrapBtn .commandBtn{
+    width: 20%;
+}
+}
