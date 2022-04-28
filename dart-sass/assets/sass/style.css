@@ -271,9 +271,6 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
   margin-left: 15px;
   margin-top: -15px;
 }
@@ -292,20 +289,9 @@
 .card__btn {
   height: 2rem;
   width: 2rem;
-  font-size: 1rem;
-  margin: 15px 10px 0 0;
+  margin: 18px 10px 0 0;
   background-color: transparent;
   border: transparent 0px solid;
-  padding: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   cursor: pointer;
   position: relative;
   background-color: black;

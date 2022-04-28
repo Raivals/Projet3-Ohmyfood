@@ -54,7 +54,6 @@ $linear-gradient:linear-gradient(0deg, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79
     &__footer{
         display: flex;
         justify-content: space-between;
-        align-items: baseline;
         margin-left: 15px;
         margin-top: -15px;
     }
@@ -70,14 +69,9 @@ $linear-gradient:linear-gradient(0deg, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79
     &__btn{
         height: 2rem;
         width: 2rem;
-        font-size: 1rem;
-        margin: 15px 10px 0 0;
+        margin: 18px 10px 0 0;
         background-color: transparent;
         border: transparent 0px solid;
-        padding: 0;
-        display:flex;
-        align-items:center;
-        justify-content:center;
         cursor: pointer;
         position: relative;
         background-color: black;
