@@ -1,6 +1,5 @@
-/* Voir pour mettre les variablers dans un dossier spécifique */
-
 $linear-gradient:linear-gradient(0deg, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+/* A mettre dans le dossier variable */
 
 @mixin slogan {
     background: #f6f6f6;
@@ -13,6 +12,7 @@ $linear-gradient:linear-gradient(0deg, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79
 @mixin btn-slogan {
     border: 1px solid transparent;
     border-radius: 30px;
+    font-size: 1rem;
     padding: 15px 20px 15px 20px; 
     background-image: $linear-gradient;
     color: #fff;

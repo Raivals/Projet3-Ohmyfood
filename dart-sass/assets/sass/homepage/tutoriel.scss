@@ -82,3 +82,11 @@
     }  
 }
 }
+@media screen and (min-width: 1440px) 
+{
+    .tuto{
+        &__title{
+            margin-left: 10%;
+        }
+    }
+}
