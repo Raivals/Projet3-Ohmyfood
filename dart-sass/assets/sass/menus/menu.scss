@@ -24,17 +24,7 @@ $linear-gradient:linear-gradient(0deg, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79
         
     }
 }
-@mixin btn-slogan {
-    border: 1px solid transparent;
-    font-size: 1rem;
-    border-radius: 30px;
-    padding: 15px 20px 15px 20px; 
-    background-image: $linear-gradient;
-    color: #fff;
-    font-weight: bold;
-    box-shadow: 4px 4px 6px #aaa;
-    cursor: pointer;
-}
+
  /*A mettre dans le dossier variable */
 
 .menu{
@@ -131,9 +121,9 @@ $linear-gradient:linear-gradient(0deg, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79
     box-shadow: 4px 4px 6px #aaa;
     position: relative;
     cursor: pointer;
-    white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
+    white-space: nowrap;
     transition: padding-right 350ms ease-in-out;
     &:hover {
       padding-right: 70px;
@@ -145,26 +135,48 @@ $linear-gradient:linear-gradient(0deg, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79
     &:hover .fa-check {
       transform: rotate(360deg) ;
     }
-    &__header{
+    &__header{ 
         margin-top: -20px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    &__title{
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;  
     }
     &__description{
         margin-top: -15px;
         font-size: 0.9rem;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
     }
     &__price{
         display: flex;
         justify-content: right;
         margin-top: -33px;
         font-weight: bold;
-        color: grey;
+        color: black;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
     }
     &__wrapIcon{
         @include wrapIcon;
     }
 }
 .wrapBtn .commandBtn{
-    @include btn-slogan;
+    border: none;
+    font-size: 1rem;
+    border-radius: 30px;
+    padding: 15px 20px 15px 20px; 
+    background-image: $linear-gradient;
+    color: #fff;
+    font-weight: bold;
+    box-shadow: 4px 4px 6px #aaa;
+    cursor: pointer;
     margin: 30px 0;
     padding: 15px;
     width: 50%;

@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
-@import url('/dart-sass/assets/sass/variables.scss');
-@import url('./homepage/header.css');
-@import url('./homepage/local.css');
-@import url('./homepage/slogan.css');
-@import url('./homepage/tutoriel.css');
-@import url('./homepage/restaurant.css');
-@import url('./homepage/footer.css');
+@import './variables.scss';
+@import './homepage/header.scss';
+@import './homepage/local.scss';
+@import './homepage/slogan.scss';
+@import './homepage/tutoriel.scss';
+@import './homepage/restaurant.scss';
+@import './homepage/footer.scss';
+
+
 
 
 span, p, h1, h2, h3, a, h4 {

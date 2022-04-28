@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
-@import url('./'); /* Variables */
-@import url('./header_menu.css');
-@import url('./footer_menu.css');
-@import url('./menu.css');
+@import './variables.scss';
+@import  './menus/header_menu.scss';
+@import  './menus/menu.scss';
+@import './homepage/footer.scss';
 
 span, p, h1, h2, h3, a, h4 {
     font-family: 'Roboto', sans-serif;

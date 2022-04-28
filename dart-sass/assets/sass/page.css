@@ -1,3 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+@-webkit-keyframes card__btn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes card__btn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__arrow {
+  position: absolute;
+  left: 20px;
+}
+
+.header__logo {
+  font-family: 'Shrikhand', sans-serif;
+  font-size: 1.8rem;
+}
+
+.heroImg {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 250px;
+}
+
+/* Version Desktop */
+@media screen and (min-width: 1200px) {
+  .heroImg {
+    height: 500px;
+  }
+}
+
+/* version tablette */
+@media screen and (min-width: 768px) {
+  .heroImg {
+    height: 350px;
+  }
+}
+
 /*A mettre dans le dossier variable */
 .menu__header {
   display: -webkit-box;
@@ -119,9 +187,9 @@
           box-shadow: 4px 4px 6px #aaa;
   position: relative;
   cursor: pointer;
-  white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
+  white-space: nowrap;
   -webkit-transition: padding-right 350ms ease-in-out;
   transition: padding-right 350ms ease-in-out;
 }
@@ -143,11 +211,23 @@
 
 .menuItem__header {
   margin-top: -20px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.menuItem__title {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .menuItem__description {
   margin-top: -15px;
   font-size: 0.9rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .menuItem__price {
@@ -159,7 +239,10 @@
           justify-content: right;
   margin-top: -33px;
   font-weight: bold;
-  color: grey;
+  color: black;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .menuItem__wrapIcon {
@@ -198,7 +281,7 @@
 }
 
 .wrapBtn .commandBtn {
-  border: 1px solid transparent;
+  border: none;
   font-size: 1rem;
   border-radius: 30px;
   padding: 15px 20px 15px 20px;
@@ -279,4 +362,73 @@
     width: 12%;
   }
 }
-/*# sourceMappingURL=menu.css.map */
+
+.footer {
+  background-color: #353535;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.footer__logo {
+  font-family: 'Shrikhand', sans-serif;
+  font-size: 1.2rem;
+  margin-left: 15px;
+  color: white;
+}
+
+.footer__list {
+  list-style-type: none;
+}
+
+.footer__listing {
+  margin-bottom: 10px;
+  margin-left: -20px;
+}
+
+.footer__link {
+  color: white;
+}
+
+.footer__link:hover {
+  color: #9356dc;
+  font-weight: bold;
+}
+
+.footer__link:link {
+  text-decoration: none;
+}
+
+.footer__icon {
+  padding-right: 15px;
+}
+
+/* Version Desktop */
+@media screen and (min-width: 1200px) {
+  .footer {
+    text-align: center;
+  }
+}
+
+/* version tablette */
+@media screen and (min-width: 768px) {
+  .footer {
+    text-align: center;
+  }
+}
+
+span, p, h1, h2, h3, a, h4 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+  font-size: 1.4rem;
+}
+
+body {
+  margin: 0;
+}
+
+/* Version Desktop */
+/* version tablette */
+/* version large */
+/*# sourceMappingURL=page.css.map */
