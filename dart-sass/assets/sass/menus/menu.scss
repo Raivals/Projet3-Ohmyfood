@@ -25,6 +25,15 @@ $linear-gradient:linear-gradient(0deg, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79
     }
 }
 
+@keyframes itemAppear {
+    0% {
+      transform: scale(0)
+    }
+    100% {
+      transform: scale(1);
+    }
+}
+
  /*A mettre dans le dossier variable */
 
 .menu{
@@ -125,6 +134,11 @@ $linear-gradient:linear-gradient(0deg, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79
     overflow: hidden;
     white-space: nowrap;
     transition: padding-right 350ms ease-in-out;
+    animation: itemAppear .8s;
+    animation-timing-function: cubic-bezier(.5,1.58,.34,.82);
+    animation-fill-mode: both;
+    transform: scale(0);
+    max-width: 100%;
     &:hover {
       padding-right: 70px;
     }
@@ -192,6 +206,12 @@ $linear-gradient:linear-gradient(0deg, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79
     justify-content: center;
     background-color: #f6f6f6;
     padding-bottom: 50px;
+}
+
+@for $i from 0 to 9 {
+    .delay-#{$i} {
+      animation-delay:  #{$i/20}s;
+    }
 }
 
 /* Version Desktop */
