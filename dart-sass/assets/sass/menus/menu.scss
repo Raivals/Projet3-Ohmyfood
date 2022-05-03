@@ -166,6 +166,7 @@ $linear-gradient:linear-gradient(0deg, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79
         white-space: nowrap;
         text-overflow: ellipsis;
         overflow: hidden;
+        padding-right: 40px;
     }
     &__price{
         display: flex;
@@ -176,6 +177,7 @@ $linear-gradient:linear-gradient(0deg, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79
         white-space: nowrap;
         text-overflow: ellipsis;
         overflow: hidden;
+        padding-right: 10px;
     }
     &__wrapIcon{
         @include wrapIcon;
