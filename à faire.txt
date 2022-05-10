@@ -1,9 +1,32 @@
-reduire taille coeur page ppal
-revoir medias queries "flex wrap" 
-mettre acceuil au lieu de style
-mettre restaurant au lieu de page 
-Test W3C
-Préparer les livrables
+0 min : Mise en situation & Rappel du sujet 
+- (montrer les vidéos animations + les maquettes graphique)
+- Revenir sur les points importants du sujet (couleur etc..)
+
+3 min : Présentation de la maquette graphique en montrant les points importants 
+
+- coeur
+- boutons
+- animations 
+- loader
+- correspondance avec la maquette  
+- Apparition des ... quand la carte est trop petite pour le texte ... 
+
+Idem version Tablette 
+Idem version Desktop
+
+8 min : Code HTML 
+
+- Balise sémantique 
+- Comment le code est organisé   
+
+10 min : CSS
+
+- Organisation du code 
+- Parler des mixins & Keyframes 
+- Grid & Flexbox
+- Animations etc ...
+
+14 min : Conclusion !  
 
 Animations comment elle est realisée
 différence entre transition & aniamtion 
@@ -16,3 +39,5 @@ Gerer les "..."
 Coeur fontawesome
 bouton (éclairsissement)
 apparition progressive des menus ... 
+Mixins 
+Keyframes
