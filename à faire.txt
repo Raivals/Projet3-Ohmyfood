@@ -28,16 +28,47 @@ Idem version Desktop
 
 14 min : Conclusion !  
 
+
+
 Animations comment elle est realisée
-différence entre transition & aniamtion 
+
+
+différence entre transition & aniamtion : Les transitions animent un objet d'un point à un autre. L'animation vous permet de définir des images clés qui varient d'un état à un autre avec diverses propriétés et délais.
+
+
+Mixins : Une mixin est un morceau de code paramétrable et réutilisable n’importe où dans votre fichier SASS. Comme pour une fonction, une mixin peut prendre des paramètres.
+Grâce aux mixins, il vous sera possible de générer plusieurs dizaines de lignes CSS avec une seule ligne
+
+
+Keyframes : La règle @keyframes permet aux auteurs de définir les étapes qui composent la séquence d'une animation CSS. Cela permet de contrôler une animation plus finement que ce qu'on pourrait obtenir avec les transitions.
+
+
 flex / grid 
+
+
 sémantique
-sass (comment fonctionne keyframe mixins)
+
+
 breakpoints
+
+
 loader 
+
+(Variable)
+
+
 Gerer les "..."
+(Menus => MenuItem
+
+
 Coeur fontawesome
+(variable => Mixins like)
+
 bouton (éclairsissement)
+( Variables + slogan ) 
+
 apparition progressive des menus ... 
-Mixins 
-Keyframes
+
+(Variable =>  ItemAppear + Menu => MenuItem)
+
+

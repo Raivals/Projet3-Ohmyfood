@@ -108,7 +108,7 @@
         width: 50px; 
     }
 }
-
+/* apparition menu + cacher le txt en les ... */
 .menuItem{
     background-color: #fff;
     border-radius: 15px;
@@ -196,7 +196,7 @@
     background-color: #f6f6f6;
     padding-bottom: 50px;
 }
-
+/* Apparition menus */
 @for $i from 0 to 9 {
     .delay-#{$i} {
       animation-delay:  #{$i/20}s;
@@ -215,7 +215,7 @@
 }
 .submenu{
     padding: 0 20px 0 20px;
-    width: 400px;   
+    width: 250px;   
 }
 .wrapBtn .commandBtn{
     width: 15%;
@@ -250,5 +250,9 @@
     }
     .wrapBtn .commandBtn{
         width: 12%;
+    }
+    .submenu{
+        padding: 0 20px 0 20px;
+        width: 400px;   
     }
 }
