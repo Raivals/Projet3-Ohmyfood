@@ -316,6 +316,7 @@
   width: 50px;
 }
 
+/* apparition menu + cacher le txt en les ... */
 .menuItem {
   background-color: #fff;
   border-radius: 15px;
@@ -467,6 +468,7 @@
   padding-bottom: 50px;
 }
 
+/* Apparition menus */
 .delay-0 {
   -webkit-animation-delay: 0s;
           animation-delay: 0s;
@@ -527,7 +529,7 @@
   }
   .submenu {
     padding: 0 20px 0 20px;
-    width: 400px;
+    width: 25%;
   }
   .wrapBtn .commandBtn {
     width: 15%;
